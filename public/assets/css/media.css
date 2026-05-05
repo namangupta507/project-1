@@ -1,0 +1,95 @@
+@media screen and (max-width:1200px) {
+    .credential_content_info h1, .credential_form_card h2 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .credential_main_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .credential_content_outer {
+        width: 100%;
+    }
+    .credential_form_wrapper {
+        width: 80%;
+    }
+    .credential_content_wrapper {
+        padding: 30px 12px;
+        max-width: 726px;
+        gap: 30px;
+    }
+}
+@media screen and (max-width:576px) {
+
+    .credential_form_wrapper {
+        width: 90%;
+    }
+    .credential_form_card {
+        padding: 32px 28px;
+        border-radius: 14px;
+    }
+    .container {
+        max-width: calc(100% - 14px);
+    }
+    .side-navbar.side-hide {
+        max-width: 60px;
+    }
+    .side-hide .side_menu_wrapper {
+        width: 60px;
+    }
+    .sidemenu_list {
+        padding: 30px 5px 30px 5px;
+    }
+    .main-wrapper, .main-wrapper.main-width {
+        margin-left: 60px;
+    }
+    header .page-heading {
+        font-size: 14px;
+    }
+    button.opnBtn {
+        display: none !important;
+    }
+    .header-link-btn span {
+        display: none;
+    }
+    .common_stats {
+        gap: 20px 50px;
+    }
+    span.common_stats_value {
+        font-size: 20px;
+    }
+    .common_stats_item h2 {
+        font-size: 14px;
+    }
+    span.showing-value {
+        font-size: 12px;
+    }
+    .table_footer {
+        justify-content: center;
+    }
+    ul.pagination {
+        justify-content: center !important;
+    }
+    .table_page_action {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .common-card {
+        padding: 24px 16px;
+    }
+    .outline_wrapper {
+        padding: 28px 16px;
+    }
+    .profile_fields label {
+        width: 100%;
+        text-align: left;
+        font-size: 14px;
+    }
+    .profile_fields :is(.form-control, .form-select) {
+        width: 100%;
+    }
+    .reading_input_blk {
+        gap: 5px !important;
+    }
+}

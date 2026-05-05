@@ -1,0 +1,76 @@
+{
+  "name": "savemore",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.2.0",
+    "@mui/x-date-pickers": "^8.9.0",
+    "@react-google-maps/api": "^2.20.7",
+    "@react-oauth/google": "^0.12.2",
+    "@reduxjs/toolkit": "^2.8.2",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "apexcharts": "^5.2.0",
+    "axios": "^1.10.0",
+    "clockpicker": "^0.0.7",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^17.2.0",
+    "google-map-react": "^2.2.5",
+    "jquery": "^3.7.1",
+    "jquery-clockpicker": "^0.0.8",
+    "jwt-decode": "^4.0.0",
+    "libphonenumber-js": "^1.12.13",
+    "papaparse": "^5.5.3",
+    "react": "^19.1.0",
+    "react-apexcharts": "^1.7.0",
+    "react-datepicker": "^8.4.0",
+    "react-dom": "^19.1.0",
+    "react-month-picker-input": "^1.3.10",
+    "react-phone-input-2": "^2.15.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.6.3",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.17.0",
+    "react-static-google-map": "^0.9.0",
+    "react-time-picker": "^7.0.0",
+    "react-toastify": "^11.0.5",
+    "redux": "^5.0.1",
+    "smartlook-client": "^10.0.0",
+    "sweetalert2": "^11.22.2",
+    "sweetalert2-react-content": "^5.1.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6"
+  }
+}

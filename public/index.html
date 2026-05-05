@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <link rel="icon" type="image/svg+xml" href="%PUBLIC_URL%/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Savmor" />
+  <link rel="apple-touch-icon" type="image/svg+xml" href="%PUBLIC_URL%/favicon.svg" />
+
+  <!-- custom-css -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/stylesheet.css">
+  <!-- css -->
+
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <script type='text/javascript'>
+    window.smartlook || (function (d) {
+      var o = smartlook = function () { o.api.push(arguments) }, h = d.getElementsByTagName('head')[0];
+      var c = d.createElement('script'); o.api = new Array(); c.async = true; c.type = 'text/javascript';
+      c.charset = 'utf-8'; c.src = 'https://web-sdk.smartlook.com/recorder.js'; h.appendChild(c);
+    })(document);
+    smartlook('init', '22e3ad0744a45d6838a7f6ea44bc0a356db2266f', { region: 'eu' });
+  </script>
+  <title>Savmor</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <!-- custom js -->
+  <script src="%PUBLIC_URL%/assets/js/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script src="%PUBLIC_URL%/assets/js/bootstrap.min.js"></script>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+
+  <!-- <apple sdk link> -->
+  <script type="text/javascript"
+    src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
+  <!-- </apple> -->
+
+  <!-- </google> -->
+  <script src="%PUBLIC_URL%/assets/js/clock-picker.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <script src="%PUBLIC_URL%/assets/js/style.js"></script>
+  <!-- bootstrap js -->
+
+</body>
+
+</html>
